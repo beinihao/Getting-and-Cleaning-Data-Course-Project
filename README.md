@@ -1,6 +1,6 @@
 For Course #3, Getting and Cleaning Data Course Project, run_analysis.R breaks down to the following:
 
-a. Downloading the data, Human Activity Recognition Using Smartphones Data Set, which was provided to us in the assignment insturction
+a. Downloading the data, Human Activity Recognition Using Smartphones Data Set, which was provided to us
 
 b. Merging Training and Test data together
 
