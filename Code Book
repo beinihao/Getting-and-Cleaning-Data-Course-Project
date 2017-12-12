@@ -1,22 +1,14 @@
-Identifiers
-
+##Identifiers
 •subject
-
 •activity 
-
 ◦WALKING
-
 ◦WALKING_UPSTAIRS
-
 ◦WALKING_DOWNSTAIRS
-
 ◦SITTING
-
 ◦STANDING
-
 ◦LAYING
 
-Measurements
+##Measurements
 •tBodyAccMeanX
 •tBodyAccMeanY
 •tBodyAccMeanZ
