@@ -25,6 +25,17 @@ test <- cbind(testSubjects, testActivities, test)
 columns123 <- grep("subject|activity|mean|std", colnames(humanActivity)) 
 humanActivity <- humanActivity[, columns123] 
 
+# Rename the columns
+columns123 <- gsub ("BodyBody", "Body",columns123, fixed=TRUE)
+columns123 <- gsub("^f", "FreqDomain", columns123)
+columns123 <- gsub("^t", "TimeDomain", columns123)
+columns123 <- gsub("mean[(][)]", "Mean", columns123)
+columns123 <- gsub("std[(][)]", "StdDev", columns123)
+columns123 <- gsub("Acc", "Acceleration", columns123, fixed = TRUE)
+columns123 <- gsub("Gyro", "Gyroscope",columns123, fixed = TRUE)
+columns123 <- gsub("Mag", "Magnitude", columns123, fixed = TRUE)
+columns123 <- gsub("-", ".", columns123)
+
 # Merging Training and Test data together and creating tidy dataset
 TogetherData <- rbind(train, test)
 colnames(TogetherData) <- c("subject", "activity")
