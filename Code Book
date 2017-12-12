@@ -1,4 +1,4 @@
-##Identifiers
+# Identifiers
 •subject
 •activity 
 ◦WALKING
@@ -8,7 +8,7 @@
 ◦STANDING
 ◦LAYING
 
-##Measurements
+# Measurements
 •tBodyAccMeanX
 •tBodyAccMeanY
 •tBodyAccMeanZ
